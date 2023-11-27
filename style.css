@@ -1,0 +1,89 @@
+.ph, .ph-fill{
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:5px
+}
+
+*{
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+  color: #074861;
+}
+
+body{
+  background-color: #EDF6F9;
+}
+
+nav{
+  background-color: #83C5BE;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  border-radius:5px;
+  font-size: 20px;
+  margin: 10px;
+}
+
+section{
+  margin: 10px;
+}
+
+.inicio{
+  display: flex;
+  justify-content: center;
+}
+
+div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:5px
+}
+
+.fora{
+  width: 50px;
+  height: 50px;
+  padding: 90px;
+  background: #83C5BE;
+  border-radius: 50%;
+}
+
+.dentro{
+  border-radius: 50%;
+}
+
+.titulo{
+  font-size: 25px;
+  font-weight: 550;
+}
+
+.detalhe{
+  font-size: 15px;
+}
+
+li{
+  margin:5px;
+}
+
+#gigante{
+  background-color: #83C5BE;
+  padding: 5px;
+  border-radius:10px;
+  width: 600px;
+  height:fit-content;
+  flex-direction: column;
+}
+
+.pitico{
+  background-color:  #074861;
+  height: 200px;
+  width: 200px;
+  padding: 15px;
+}
+
+footer{
+  font-size:10px;
+  background-color: #83C5BE;
+}
